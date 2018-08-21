@@ -5,3 +5,4 @@ import "./styles/DNA.css";
 import "./styles/CellsTissuesOrgans.css";
 
 import "./scripts/DNA.js";
+import "./scripts/CellsTissuesOrgans.js";
