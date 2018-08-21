@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 import Indicators from './Indicators';
-import CellsTissuesOrgans from './CellsTissuesOrgans';
+//import CellsTissuesOrgans from './CellsTissuesOrgans';
 
 export default class Lesson extends React.Component {
   static propTypes = {
@@ -28,7 +28,7 @@ export default class Lesson extends React.Component {
     return (
       <div>
           <Indicators />
-          <CellsTissuesOrgans />
+          {/*<CellsTissuesOrgans />*/}
       </div>
     );
   }
